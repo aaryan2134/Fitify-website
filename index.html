@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sushrut</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+              <a href="https://aaryan2134.wixsite.com/fitify"><h4><span class="myClass">Fit</span>ify</h4></a>
+            </div>
+            <div class="links">
+                <a href="index.html" class="mainlink">Home</a>
+                <!-- <a href="https://share.streamlit.io/advikmaniar/ml-healthcare-web-app/main/ML_Healthcare.py" class="mainlink">Disease Predictor</a>
+                <a href="https://health-port.herokuapp.com/forum" class="mainlink">Forum</a>
+                <a href="http://covid19.great-site.net/?i=1" class="mainlink" >COVID Data</a> -->
+                <a href="#services" class="mainlink">Services</a>
+                <a href="Login-Signup-main/index.html" class="mainlink">Login/Sign Up</a>
+                <!-- <a href="" class="mainlink">Video chat with Doctor</a> -->
+            </div>
+        </div>
+
+        <!-- LANDING PAGE -->
+
+        <div class="landing">
+            <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
+                <h1><span style="color:red">Health</span><span style="color:black">First</span> </h1>
+                <h3>Happiness begins with good health</h3>
+            </div>
+            <div class="landingImage" data-aos="fade-down" data-aos-duration="2000">
+                <img src="img/bg.png" alt="">
+            </div>
+        </div>
+       
+        <!-- INFO SECTION -->
+        <div class="infoSection">
+          <div id='services'>
+            <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
+                <h1>"Your Health Our Responsibility"<br> <span style="color:red">Our Facilities</span> </h1>
+            </div>
+            </div>
+            <div class="infoCards">
+                <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="img/amu.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="cardbgone"></div>
+                    <div class="cardContent">
+                        <h2>Ambulance Service</h2>
+                        <p>Book and track your ambulance...</p>
+                        <a href="./src/ambulance.html">
+                            <div class="cardBtn">
+                                <img src="img/next.png" alt="" class="cardIcon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="img/hos.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="cardbgtwo"></div>
+                    <div class="cardContent">
+                        <h2>Hospital</h2>
+                        <p>Check bed vacancies....</p>
+                        <a href="./src/hospital.html">
+                            <div class="cardBtn">
+                                <img src="img/next.png" alt="" class="cardIcon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="img/blood.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
+                    <div class="cardbgone"></div>
+                    <div class="cardContent">
+                        <h2>Blood Bank</h2>
+                        <p>Search for your required blood group...</p>
+                        <a href="./src/blood.html">
+                            <div class="cardBtn">
+                                <img src="img/next.png" alt="" class="cardIcon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="infoCards">
+        <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+          <img src="img/med.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
+          <div class="cardbgtwo"></div>
+          <div class="cardContent">
+              <h2>Medicine Shops</h2>
+              <p>Search for medicine shops near you...</p>
+              <a href="./src/medicine.html">
+                  <div class="cardBtn">
+                      <img src="img/next.png" alt="" class="cardIcon">
+                  </div>
+              </a>
+          </div>
+      </div>
+      </div>
+
+        <!-- <div class="infoCards">
+            <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/movie.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
+                <div class="cardbgone"></div>
+                <div class="cardContent">
+                    <h2>Oxygen Leads</h2>
+                    <p>Find oxygen leads available...</p>
+                    <a href="./src/oxygen.html">
+                        <div class="cardBtn">
+                            <img src="img/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+      
+            <!-- <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+                <img src="img/videocall.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
+                <div class="cardbgone"></div>
+                <div class="cardContent">
+                    <h2>Disease Information</h2>
+                    <p>Know more about diseases...</p>
+                    <a href="./src/information.html">
+                        <div class="cardBtn">
+                            <img src="img/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="infoCards">
+            <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./src/img/baby1.jpeg" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
+                <div class="cardbgone"></div>
+                <div class="cardContent">
+                    <h2>Infant Services</h2>
+                    <p>Find your required baby products...</p>
+                    <a href="./src/baby1.html">
+                        <div class="cardBtn">
+                            <img src="img/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Footer -->
+        <!-- <iframe align="right" src="" name="AI Doctor" scrolling="auto" width="400px" height="800px"></iframe> -->
+        <a href="http://127.0.0.1:5000/"><img align="right" src="https://img.icons8.com/ios-filled/50/fa314a/chat--v1.png"/></a>
+        </div>
+    </div>
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
